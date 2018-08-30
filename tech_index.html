@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Happily coded by Manuel Martin -->
+<!-- FCC Completion checker -->
+<div>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</div>
+
+<!--BOOTSTRAPS & EXTRAS -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
+  <link rel="stylesheet" href="tech.css">
+  <!-- Orbitron font -->
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet" type="text/css">
+  <!-- fa icons -->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <title>Tech page</title>
+</head>
+
+<!-- CODING STARTS HERE -->
+
+<!-- NAV-BAR -->
+
+
+<h1 class="title">A Path to Front-End Developer</h1>
+<p class="refer">(Extracted from <a href="https://www.w3schools.com/" target="_blank">w3schools.com</a>)
+</p>
+
+
+<nav id="navbar">
+  <header>
+    A Path to Front-End Developer
+  </header>
+
+
+  <ul>
+    <li>
+      <a href="#HTML5" class="nav-link">HTML5</a>
+    </li>
+    <li>
+      <a href="#CSS3" class="nav-link">CSS3</a>
+    </li>
+    <li>
+      <a href="#JAVASCRIPT" class="nav-link">JAVASCRIPT</a>
+    </li>
+    <li>
+      <a href="#BOOTSTRAP" class="nav-link">BOOTSTRAP</a>
+    </li>
+    <li>
+      <a href="#JQUERY" class="nav-link">JQUERY</a>
+    </li>
+  </ul>
+
+
+
+</nav>
+
+
+<!-- BODY / MAIN -->
+
+<body>
+  <main id="main-doc">
+
+    <!-- HTML5 -->
+    <section id="HTML5" class="main-section">
+      <header>
+        <h2>HTML5</h2>
+      </header>
+
+      <h3>What is HTML?</h3>
+      <h5>HTML is the standard markup language for creating Web pages.</h5>
+
+      <ul>
+        <li>HTML stands for Hyper Text Markup Language</li>
+        <li>HTML describes the structure of Web pages using markup</li>
+        <li>HTML elements are the building blocks of HTML pages</li>
+        <li>HTML elements are represented by tags</li>
+        <li>HTML tags label pieces of content such as "heading", "paragraph", "table", and so on Browsers do not display
+          the HTML tags, but use them to render the content of the page</li>
+      </ul>
+
+      <h6>Example Code:<br></h6>
+      <div class="greybox">
+        <code>
+            &lt;!DOCTYPE html&gt;<br>
+            &lt;html&gt;<br>
+                &lt;head&gt;<br>
+                    &lt;title&gt;Page Title&lt;/title&gt;<br>
+                    &lt;/head&gt;<br>
+                    &lt;body&gt;<br>
+
+                        &lt;h1&gt;My First Heading&lt;/h1&gt;<br>
+                        &lt;p&gt;My first paragraph.&lt;/p&gt;<br>
+
+                        &lt;/body&gt;<br>
+                        &lt;/html&gt;<br>
+        </code>
+      </div>
+      <br> <h6>This is the result:</h6>
+      <h1 class="coded">This is a Heading</h1>
+      <p>This is a paragraph.</p><br>
+
+    </section>
+    <hr>
+
+    <!-- CSS3 -->
+    <section id="CSS3" class="main-section">
+      <header>
+        <h2>CSS3</h2>
+      </header>
+      <h3>What is CSS?</h3>
+      <h5>CSS stands for Cascading Style Sheets</h5>
+
+      <ul>
+        <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
+        <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
+        <li>External stylesheets are stored in CSS files</li>
+        <li>CSS Solved a Big Problem since HTML was NEVER intended to contain tags for formatting a web page!</li>
+      </ul>
+      <h6>Example code: all &lt;p&gt; elements on a page like this (in this case, all &lt;p&gt; elements will be center-aligned,
+        with a green text color):</h6>
+      <div class="greybox">
+        <code>
+                &lt;!DOCTYPE html&gt;<br>
+            &lt;html&gt;<br>
+                &lt;head&gt;<br>
+                &lt;style&gt;<br>
+                .greencss {<br>
+                    color: green;<br>
+                    text-align: center;<br>
+                }<br>
+                &lt;/style&gt;<br>
+                &lt;/head&gt;<br>
+                &lt;body&gt;<br>
+                &lt;p class="greencss"&gt;<br>Hello World!<br> &lt;/p&gt;<br>
+                &lt;p class="greencss"&gt;These paragraphs are styled with CSS. &lt;/p&gt;<br>
+                &lt;/body&gt;<br>
+                &lt;/html&gt;
+          </code>
+      </div><br>
+      <h6>This is the result:</h6>
+      <style>
+        .greencss {
+          color: green;
+          text-align: center;
+        }
+      </style>
+      <p class="greencss">Hello World!</p>
+      <p class="greencss">These paragraphs are styled with CSS.</p><br>
+    </section>
+    <hr>
+
+
+    <!-- JS -->
+    <section id="JAVASCRIPT" class="main-section">
+      <header>
+        <h2>JAVASCRIPT</h2>
+      </header>
+      <h3>What is JavaScript?</h3>
+      <h5>JavaScript is the programming language of HTML and the Web</h5>
+
+      <ul>
+        <li>JavaScript Can Change HTML Content</li>
+        <li>JavaScript Can Change HTML Attribute Values</li>
+        <li>JavaScript Can Change HTML Styles (CSS)</li>
+        <li>JavaScript Can Change HTML Elements</li>
+        <li>and many more things...</li>
+      </ul>
+      <h6>Example of how JavaScript can change HTML content:<br></h6>
+      <div class="greybox">
+        <code>
+                &lt;p id="demo">JavaScript can change HTML content.&lt;/p&gt;<br>
+                &lt;button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!">Click Me!&lt;/button&gt;
+          </code>
+      </div><br> This is the result:<br>
+      <p id="demo">JavaScript can change HTML content.</p>
+
+      <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+      <br>
+    </section>
+    <hr>
+
+    <!-- BOOTSTRAP -->
+    <section id="BOOTSTRAP" class="main-section">
+      <header>
+        <h2>BOOTSTRAP</h2>
+      </header>
+      <h3>What is Bootstrap?</h3>
+      <h5>Bootstrap is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first websites.</h5>
+
+      <ul>
+        <li>Bootstrap is a free front-end framework for faster and easier web development</li>
+        <li>Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals,
+          image carousels and many other, as well as optional JavaScript plugins</li>
+        <li>Bootstrap also gives you the ability to easily create responsive designs</li>
+      </ul>
+      <h6>Example of how to setup Bootstrap and do an initial page:</h6><br>
+
+      <ul>
+        <li>
+          <h6>0. Get Bootstrap 4</h6>
+          <p>
+            There are two ways to start using Bootstrap 4 on your own web site.<br> You can:<br>
+            <ul>
+              <li>Download Bootstrap 4 from getbootstrap.com</li>
+              <li>Include Bootstrap 4 from a CDN (If you don't want to download and host Bootstrap 4 yourself)</li>
+            </ul><br> For this last option you can include it from a CDN (Content Delivery Network). MaxCDN provides CDN
+            support for Bootstrap's CSS and JavaScript. You must also include jQuery:<br><br>
+            <div class="greybox">
+              <code>
+                        &lt;!-- Latest compiled and minified CSS --&gt;<br>
+                        &lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"&gt;<br>
+
+                        &lt;!-- jQuery library --&gt;<br>
+                        &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"&gt;&lt;/script&gt;<br>
+
+                        &lt;!-- Popper JS --&gt;<br>
+                        &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"&gt;&lt;/script&gt;<br>
+
+                        &lt;!-- Latest compiled JavaScript --&gt;<br>
+                        &lt;script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"&gt;&lt;/script&gt;<br>
+                    </code>
+            </div><br>
+          </p>
+        </li>
+
+        <li>
+          <h6>1. Add the HTML5 doctype</h6>
+        </li>
+
+        <li>
+          <h6>2. Bootstrap 4 is mobile-first</h6>
+          <p>To ensure proper rendering and touch zooming, add the following &lt;meta&gt; tag inside the &lt;head&gt;> element:
+            <br>
+            <code>
+                      &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+                  </code>
+          </p>
+        </li>
+
+        <li>
+          <h6>3. Containers</h6>
+          <p>
+            Bootstrap 4 also requires a containing element to wrap site contents.<br> There are two container classes to
+            choose from:<br> The <code>.container </code> class provides a responsive fixed width container<br> The <code>.container-fluid </code>            class
+            provides a full width container, spanning the entire width of the viewport<br>
+          </p>
+        </li>
+      </ul>
+
+      <h6>Example of Bootstrap 4: JUMBOTRON</h6>A jumbotron indicates a big grey box for calling extra attention to some
+      special content or information.<br><br>
+      <div class="greybox">
+        <code><br>
+                  &lt;!DOCTYPE html&gt;<br>
+                  &lt;html lang="en"&gt;<br>
+                  &lt;head&gt;<br>
+                  &lt;title>Bootstrap Example&lt;/title&gt;<br>
+                  &lt;meta charset="utf-8"&gt;<br>
+                  &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;<br>
+                  &lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"&gt;<br>
+                  &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"&gt;&lt;/script&gt;<br>
+                  &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"&gt;lt;/script&gt;<br>
+                  &lt;script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"&gt;lt;/script&gt;<br>
+                  &lt;/head&gt;<br>
+                  &lt;body&gt;<br>
+                  &lt;div class="container"&gt;<br>
+                  &lt;div class="jumbotron"&gt;<br>
+                  &lt;h1&gt;Bootstrap Tutorial&lt;/h1&gt;<br>
+                  &lt;p&gt;Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.&lt;/p&gt;<br>
+                  &lt;/div&gt;<br>
+                  &lt;/div&gt;<br>
+                  &lt;/body&gt;<br>
+                  &lt;/html&gt;<br>
+              </code>
+      </div><br>
+      <h6>This is the result:</h6><br>
+      <div class="container">
+        <div class="jumbotron">
+          <h1>Bootstrap Tutorial</h1>
+          <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on
+            the web.</p>
+        </div>
+
+
+        <br>
+    </section>
+    <hr>
+
+    <!-- JQUERY -->
+    <section id="JQUERY" class="main-section">
+      <header>
+        <h2>JQUERY</h2>
+      </header>
+      <h3>What is jQuery?</h3>
+      <h5>jQuery is a lightweight, "write less, do more", JavaScript library. The purpose of jQuery is to make it much easier
+        to use JavaScript on your website.</h5>
+      The jQuery library contains the following features:<br>
+      <ul>
+        <li>HTML/DOM manipulation</li>
+        <li>CSS manipulation</li>
+        <li>HTML event methods</li>
+        <li>Effects and animations</li>
+        <li>AJAX</li>
+        <li>Utilities</li>
+      </ul>
+      <p>
+        <ul>There are two versions of jQuery available for downloading:<br>
+          <li>Production version - this is for your live website because it has been minified and compressed</li>
+          <li>Development version - this is for testing and development (uncompressed and readable code)</li>
+        </ul>
+        Both versions can be downloaded from jQuery.com.<br> The jQuery library is a single JavaScript file, and you reference
+        it with the HTML &lt;script> tag (notice that the &lt;script> tag should be inside the &lt;head> section):<br><br>
+        <div class="greybox">
+          <code>
+                &lt;head><br>
+                &lt;script src="jquery-3.3.1.min.js">&lt;/script><br>
+                &lt;/head><br>
+          </code>
+        </div><br>
+      </p>
+      <p>If you don't want to download and host jQuery yourself, you can include it from a CDN (Content Delivery Network).<br>        Both
+        Google and Microsoft host jQuery.<br> To use jQuery from Google or Microsoft, use one of the following:<br>
+        <div class="greybox">
+          <code>
+                &lt;head><br>
+                    &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> &lt;/script><br>
+                    &lt;/head><br>
+            </code>
+        </div><br>
+
+      </p>
+      <h6>Example of jQuery:</h6><br>
+      <div class="greybox">
+        <code>
+                &lt;!DOCTYPE html><br>
+                &lt;html><br>
+                &lt;head><br>
+                &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">&lt;/script><br>
+                &lt;script><br>
+                $(document).ready(function(){<br>
+                    $("#hide").click(function(){<br>
+                        $("p").hide();<br>
+                    });<br>
+                    $("#show").click(function(){<br>
+                        $("p").show();<br>
+                    });<br>
+                });<br>
+                &lt;/script><br>
+                &lt;/head><br>
+                &lt;body><br>
+
+                &lt;p>If you click on the "Hide" button, I will disappear.&lt;/p><br>
+
+                &lt;button id="hide">Hide&lt;/button><br>
+                &lt;button id="show">Show&lt;/button><br>
+
+                &lt;/body><br>
+                &lt;/html><br>
+
+            </code>
+      </div><br> <h6>This results in:</h6>
+
+      <!DOCTYPE html>
+
+      <script>
+        $(document).ready(function () {
+          $("#hide").click(function () {
+            $("p").hide();
+          });
+          $("#show").click(function () {
+            $("p").show();
+          });
+        });
+      </script>
+
+
+      <p>If you click on the "Hide" button, I will disappear.</p>
+
+      <button id="hide">Hide</button>
+      <button id="show">Show</button>
+
+
+      </p>
+
+      <br>
+    </section>
+    <hr>
+
+
+  </main>
+
+
+</body>
+
+
+
+<!-- FOOTER & SIGNATURE -->
+<footer>
+  <div id="center">
+    <div>
+      <span>Happily coded by:</span>
+      <span class="my_signature">
+        <br>Manuel Martín</span>
+      <br>
+
+      <a id="github_manuel_martin" href="https://github.com/manuman79/" target="_blank">
+        <i class="fa fa-github" style="font-size:36px"></i>
+      </a>
+    </div>
+    <div>
+
+      <b><br>using:<br>
+        <i class="fa fa-html5" style="font-size:3em; color:red"></i>
+        <i class="fa fa-css3" style="font-size:3em;color:blue"></i>
+        <i class="fab fa-js" style="font-size:3em;color:black"></i>
+        <i class="fa fa-bold " style="font-size:3em;color:violet "></i>
+    </div>
+  </div>
+
+</footer>
+
+</html>
